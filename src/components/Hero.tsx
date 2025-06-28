@@ -1,11 +1,9 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail, Sparkles, Zap, Code, Palette, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const { scrollY } = useScroll();
-  const y = useTransform(scrollY, [0, 300], [0, 100]);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion'; // Eliminado porque no se usa
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';

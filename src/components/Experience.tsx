@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Briefcase, GraduationCap, Award, Calendar } from 'lucide-react';
+import { Briefcase, GraduationCap, Calendar } from 'lucide-react';
 
 const Experience = () => {
   const experience = [
